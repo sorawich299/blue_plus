@@ -22,7 +22,7 @@ EMAIL_PASSWORD = os.getenv("EMAIL_PASSWORD")
 EMAIL_TO = os.getenv("EMAIL_TO")
 EMAIL_FROM = os.getenv("EMAIL_FROM")
 
-today = date.today() - timedelta(days=1)
+today = date.today() - timedelta(days=0)
 yesterday = today - timedelta(days=1)
 
 def create_minio_client():
