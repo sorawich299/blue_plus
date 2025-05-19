@@ -1,0 +1,6 @@
+minio
+xlsxwriter
+pandas
+oracledb
+pillow
+openpyxl
